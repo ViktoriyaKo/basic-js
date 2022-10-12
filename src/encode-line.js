@@ -20,7 +20,7 @@ function encodeLine(str) {
     }
     count++;
   }
-  return res;
+  return res.replace(/1/g, "");
 }
 
 module.exports = {
