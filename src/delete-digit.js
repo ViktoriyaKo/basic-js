@@ -24,7 +24,7 @@ function deleteDigit(n) {
     });
   // console.log(str);
   for (let i = 0; i < str.length; i++) {
-    let res = str.slice();
+    let res = str.slice(); //копия, чтобы изменять массив, каждый раз создавая новый
     res.splice(i, 1);
     let b = +res.join("");
     arr.push(b);
