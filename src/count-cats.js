@@ -14,6 +14,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  * ]) => 3`
  *
  */
+// ТЕСТЫ ПРОЙДЕНЫ
 function countCats(matrix) {
   let count = 0;
   for (let i = 0; i < matrix.length; i++) {

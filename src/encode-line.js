@@ -10,6 +10,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  * For aabbbc should return 2a3bc
  *
  */
+// ТЕСТЫ ПРОЙДЕНЫ
 function encodeLine(str) {
   let count = 1;
   let res = "";

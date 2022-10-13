@@ -13,6 +13,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  * createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]) => 'LOO'
  *
  */
+// ТЕСТЫ ПРОЙДЕНЫ
 function createDreamTeam(members) {
   let res = [];
   if (Array.isArray(members) && members.length > 0) {

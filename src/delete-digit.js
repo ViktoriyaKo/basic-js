@@ -13,7 +13,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  */
 
 // throw new NotImplementedError('Not implemented');
-
+// ТЕСТЫ ПРОЙДЕНЫ
 function deleteDigit(n) {
   let arr = [];
   let str = n
