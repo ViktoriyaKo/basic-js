@@ -19,17 +19,17 @@ const HALF_LIFE_PERIOD = 5730;
  */
 
 // ТЕСТЫ ПРОЙДЕНЫ
-// function dateSample(str) {
-//   let k = 0.693 / HALF_LIFE_PERIOD;
+function dateSample(str) {
+  let k = 0.693 / HALF_LIFE_PERIOD;
 
-//   console.log(parseFloat(k));
-//   if (typeof str === "string" && str <= MODERN_ACTIVITY && +str > 0) {
-//     let age = Math.log(MODERN_ACTIVITY / +str) / k;
-//     return Math.ceil(age);
-//   } else {
-//     return false;
-//   }
-// }
+  console.log(parseFloat(k));
+  if (typeof str === "string" && str <= MODERN_ACTIVITY && +str > 0) {
+    let age = Math.log(MODERN_ACTIVITY / +str) / k;
+    return Math.ceil(age);
+  } else {
+    return false;
+  }
+}
 
 module.exports = {
   dateSample,
