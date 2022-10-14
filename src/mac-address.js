@@ -14,7 +14,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  * For 00-1B-63-84-45-E6, the output should be true.
  *
  */
-// ЕСЛИ повезет и будет ментор, то спросить, почему так не работает? parseInt(item, 16) === NaN
+// ЕСЛИ повезет и будет ментор, то спросить, почему так не работает: parseInt(item, 16) === NaN
 
 function isMAC48Address(n) {
   let arr = n.split("-");

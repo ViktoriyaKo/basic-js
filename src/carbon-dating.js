@@ -17,6 +17,8 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
+
+// ТЕСТЫ ПРОЙДЕНЫ
 function dateSample(str) {
   let k = 0.693 / HALF_LIFE_PERIOD;
 
