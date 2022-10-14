@@ -4,7 +4,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  * Implement chainMaker object according to task description
  *
  */
-
+// ТЕСТЫ ПРОЙДЕНЫ
 const chainMaker = {
   chain: [],
 
@@ -25,10 +25,10 @@ const chainMaker = {
       position === null ||
       position === undefined
     ) {
-      this.chain = []; // обязательное условие!!!
+      this.chain = []; // обязательное условие!
       throw new Error("You can't remove incorrect link!");
     } else {
-      this.chain.splice(position - 1, 1); // -1!!!!
+      this.chain.splice(position - 1, 1); // -1 текущая!
       return this;
     }
   },

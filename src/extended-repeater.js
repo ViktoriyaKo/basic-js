@@ -15,8 +15,10 @@ const { NotImplementedError } = require("../extensions/index.js");
  * => 'STRINGPLUS00PLUS00PLUS**STRINGPLUS00PLUS00PLUS**STRINGPLUS00PLUS00PLUS'
  *
  */
-// ДУМАЮ
-function repeater(str, options) {}
+// НЕ РЕШЕНА
+function repeater(str, options) {
+  return str.repeat(options.repeatTimes);
+}
 
 module.exports = {
   repeater,
