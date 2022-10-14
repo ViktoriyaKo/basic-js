@@ -11,6 +11,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  *
  * The result should be [-1, 150, 160, 170, -1, -1, 180, 190]
  */
+// ТЕСТЫ ПРОЙДЕНЫ
 function sortByHeight(arr) {
   let copy = arr.slice();
   let sortArr = copy.sort((a, b) => a - b);
@@ -18,12 +19,13 @@ function sortByHeight(arr) {
   let sortArr1 = sortArr.slice(indexLast + 1); // без 1
   let a = arr
     .map((item, index) => {
+      // индексы
       if (item === -1) return index;
     })
     .filter((item) => item !== undefined);
 
   for (let i = 0; i < a.length; i++) {
-    sortArr1.splice(a[i], 0, -1);
+    sortArr1.splice(a[i], 0, -1); //вставка
   }
   return sortArr1;
 }
